@@ -85,4 +85,6 @@
 
 | Langkah Pengujian | Data Masukan (Input) | Hasil yang Diharapkan | Status |
 | :--- | :--- | :--- | :--- |
-| 1. Pilih jenis kamar.<br>2. Masukkan tanggal check-in.<br>3. Masukkan tanggal check-out yang tanggalnya lebih lampau dari check-in.<br>4. Klik "Pesan Sekarang". | - Kamar: `Deluxe Room`<br>- Check-in: `2026-07-15`<br>- Check-out: `2026-07-12` | Sistem otomatis menolak input tersebut, memblokir tombol submit, atau menampilkan pesan: "Tanggal check-out tidak boleh sebelum tanggal check-in." | [ ] Pass<br>[ ] Fail |
+| 1. Pilih jenis kamar.<br>2. Masukkan tanggal check-in.<br>3. Masukkan tanggal check-out yang tanggalnya lebih lampau dari check-in.<br>4. Klik "Pesan Sekarang". | - Kamar: `Deluxe Room`<br>- Check-in: `2026-07-15`<br>- Check-out: `2026-07-12` | Sistem otomatis menolak input tersebut, memblokir tombol submit, atau menampilkan pesan: "Tanggal check-out tidak boleh 
+sebelum tanggal check-in." | [ ] Pass<br>[ ] Fail |
+--- Test Update Naufal 09 Juni ---
